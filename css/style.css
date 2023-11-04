@@ -90,6 +90,7 @@ h1,h2,h3,h4,h5,h6,p{
     margin-left: 20px;
     font-size: 30px;
     margin-top: 30px;
+   
 }
 
 /* bannar part end */
@@ -99,24 +100,57 @@ h1,h2,h3,h4,h5,h6,p{
 /* counter part st  */
 
 .rightpartitem {
-    padding: 30px 50px;
-    background: rgb(145, 98, 89);
+    padding: 30px 25px;
+    background: rgba(100, 81, 77, 0.4);
     border-radius: 15px;
     margin-top: 293px;
   margin-left: 189px;
 }
-.righitmup h3{
-    margin-bottom: 30px;
-}
+
 
 .rightitems {
-    background: rgb(115, 115, 184);
-    border: 1px solid black;
+    background: rgba(94, 141, 149, 0.66);
+    border: 1px solid rgb(110, 88, 42) ;
+    border-radius: 10px;
+}
+
+
+
+/* counter part end  */
+
+
+
+
+#counter{
+    padding: 100px 0;
+    background: tan;
+}
+
+.conteritem{
+    background: tomato;
+    padding: 15px 20px;
+}
+
+
+.righitmup h3{
+    
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Nosifer', sans-serif;
+    color: rgb(236, 164, 69);
+    margin-bottom: 15px;
+}
+
+.righitmup h5{
+    margin-bottom: 15px;
+    color: antiquewhite;
 }
 
 .rightitems h3{
     padding: 20px 15px;
+    color: floralwhite;
+    font-size: 19px;
+    font-weight: 400;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Nosifer', sans-serif;
 }
-
-
-/* counter part end  */
