@@ -46,7 +46,7 @@
             strings : [' web Developer  and Programmer ',
                         
                         ],
-            typeSpeed : 70,
+            typeSpeed : 100,
             delaySpeed : 10,
             loop : true
           });
