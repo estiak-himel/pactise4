@@ -43,14 +43,34 @@
 
 
         new Typed('#typed',{
-            strings : [' web Developer  and Programmer ',
+            strings : [' web Devoloper  and Programmer ',
                         
                         ],
             typeSpeed : 100,
             delaySpeed : 10,
             loop : true
           });
+        new Typed('#typen',{
+            strings : [' দীর্ঘ ১৪ বছরে ক্রিয়েটিভ আইটি ইনস্টিটিউট অর্জন করেছে অগণিত মাইলফলক। ',
+                        
+                        ],
+            typeSpeed : 50,
+            delaySpeed : 100,
+            loop : true
+          });
 
+         
 
 
     }());
+
+    $(window).scroll(function(){
+      var scrolling = $(this).scrollTop();
+      
+      if(scrolling > 200){
+          $('.navbar').addClass('sticky_name');
+      }
+      else {
+           $('.navbar').removeClass('sticky_name');
+      }
+      });  
